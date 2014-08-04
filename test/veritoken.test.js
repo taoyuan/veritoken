@@ -10,7 +10,7 @@ var veritoken = require('../');
 describe('veritoken', function () {
 
     it('should verify token', function (done) {
-        var user = {name: 'ty', token: '1234567890abcdefgh'};
+        var user = {name: 'ty', token: '1234567890'};
         var app = express();
         app.use(veritoken({
             headers: ['authorization'],

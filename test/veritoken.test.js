@@ -1,6 +1,5 @@
 "use strict";
 
-var _ = require('lodash');
 var t = require('chai').assert;
 var express = require('express');
 var request = require('supertest');
@@ -14,7 +13,7 @@ describe('veritoken', function () {
         var app = express();
         app.use(veritoken({
             headers: ['authorization'],
-            attr: 'user'
+            property: 'user'
         }, function (token, cb) {
             if (token === user.token) {
                 cb(null, user);

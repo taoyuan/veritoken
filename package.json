@@ -1,6 +1,6 @@
 {
   "name": "veritoken",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A lightweight token verifier for express.",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,6 @@
   "devDependencies": {
     "chai": "^1.9.1",
     "express": "^4.7.2",
-    "lodash": "^2.4.1",
     "mocha": "^1.21.3",
     "supertest": "^0.13.0"
   }

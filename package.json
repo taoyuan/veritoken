@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/taoyuan/veritoken",
   "devDependencies": {
-    "chai": "^1.9.1",
+    "chai": "^4.2.0",
     "express": "^4.7.2",
-    "mocha": "^1.21.3",
-    "supertest": "^0.13.0"
+    "mocha": "^6.2.0",
+    "supertest": "^4.0.2"
   }
 }
